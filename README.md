@@ -23,8 +23,8 @@
 
 <ol>
   <li>Clonez le dépôt Tourbillon sur votre ordinateur. <p><code>git clone https://github.com/EliteScripts/Tourbillon.git</code></p></li>
-  <li>Ouvrez un terminal et accédez au répertoire du projet.</li>
-  <li>Exécutez la commande suivante pour lancer l'application : python scripts-runner.py</li>
+  <li>Ouvrez un terminal et accédez au répertoire du projet.<p><code>cd Tourbillon</code></p></li>
+  <li>Exécutez la commande suivante pour lancer l'application : python scripts-runner.py<p><code>python scripts-runner.py</code></p></li>
   <li>Utilisez l'interface utilisateur pour gérer vos scripts.</li>
 </ol>
 
