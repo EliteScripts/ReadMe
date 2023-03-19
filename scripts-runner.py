@@ -11,13 +11,13 @@ if not os.path.exists(os.path.expanduser("~/Documents/Scripts")):
 # Création de la fenêtre principale
 class MainWindow(Gtk.Window):
     def __init__(self):
-        Gtk.Window.__init__(self, title="Scripts Manager for Phosh", default_width=720, default_height=1440)
+        Gtk.Window.__init__(self, title="Tourbillon", default_width=720, default_height=1440)
         self.set_position(Gtk.WindowPosition.CENTER)
         
-	        # Création d'un bouton dans la barre de titre
+	# Création d'un bouton dans la barre de titre
         self.set_decorated(True)
         headerbar = Gtk.HeaderBar()
-        headerbar.set_title("Scripts Manager for Phosh")
+        headerbar.set_title("Tourbillon")
         headerbar.set_show_close_button(True)
         self.set_titlebar(headerbar)
 
@@ -52,7 +52,7 @@ class MainWindow(Gtk.Window):
     def fill_store(self):
         path = os.path.expanduser("~/Documents/Scripts")
         for file in os.listdir(path):
-            if file.endswith(".sh"):
+            if file.endswith(".sh") or file.endswith(".py"):
                 self.store.append([file, False])
 
     # Fonction appelée lorsqu'une case à cocher est activée/désactivée
@@ -64,7 +64,10 @@ class MainWindow(Gtk.Window):
         for row in self.store:
             if row[1]:
                 path = os.path.expanduser("~/Documents/Scripts/" + row[0])
-                subprocess.Popen(["/bin/sh", path])
+                if row[0].endswith(".sh"):
+                    subprocess.Popen(["/bin/sh", path])
+                elif row[0].endswith(".py"):
+                    subprocess.Popen(["python3", path])
 
 # Lancement de la fenêtre
 win = MainWindow()
