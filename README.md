@@ -23,7 +23,7 @@
 
 <ul>
   <li>Matériel:     PinePhone</li>
-  <li>Distribution: ArchlinuxARM <a dreemurrs-embedded/Pine64-Arch href=https://github.com/dreemurrs-embedded/Pine64-Arch> </li>
+  <li>Distribution: ArchlinuxARM <a dreemurrs-embedded/Pine64-Arch> href=https://github.com/dreemurrs-embedded/Pine64-Arch> </li>
   <li>Environement: Phosh 0.25.2 (gnome-shell 43 pour mobile)</li>
   <li>Architecture: aarch64</li>
   <li>Status:       OK</li>
