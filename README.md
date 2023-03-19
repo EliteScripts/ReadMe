@@ -28,13 +28,6 @@
   <li>Architecture: aarch64</li>
   <li>Status:       OK</li>
 </ul>
-<ul>
-  <li>Matériel:     PC Portable</li>
-  <li>Distribution: Archlinux</li>
-  <li>Environement: Gnome-shell 43.3</li>
-  <li>Architecture: AMD64</li>
-  <li>Status:       OK</li>
-</ul>
 
 <h2>Comment utiliser l'application</h2>
 
