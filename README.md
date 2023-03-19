@@ -31,13 +31,16 @@
 
 
 <h2>Dépendances nécessaires</h2>
-<p>Debian/Ubuntu</p>
+<p>Debian/Ubuntu:</p>
 <code>sudo apt-get install python3-gi python3-gi-cairo gir1.2-gtk-3.0</code>
-<p>ArchLinux/Manjaro</p>
+
+<p>ArchLinux/Manjaro:</p>
 <code>sudo pacman -S python-gobject gtk3</code>
-<p>Fedora</p>
+
+<p>Fedora:</p>
 <code>sudo dnf install python3-gobject gtk3</code>
-<p>Mageia</p>
+
+<p>Mageia:</p>
 <code>sudo urpmi python3-gobject gtk3</code>
 
 <h2>Contributions</h2>
