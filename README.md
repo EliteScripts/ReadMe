@@ -6,8 +6,8 @@
 
 <ul>
   <li>Exécuter des scripts discrètement à partir de l'application.</li>
-  <li>Permet de sélectionner un script ou plusieur en même temps à exécuter en un clic.</li>
-  <li>Configurer des paramètres pour chaque script, depuis le dossier ~/Documents/Scripts.</li>
+  <li>Permet de sélectionner un script ou plusieur en même temps, à exécuter en un clic.</li>
+  <li>Modification de chaque script, depuis le dossier ~/Documents/Scripts.</li>
   <li><del>Ajouter, modifier et supprimer des scripts.</del></li>
   <li><del>Rechercher des scripts par nom ou par contenu.</del></li>
 </ul>
