@@ -1,11 +1,11 @@
 <h1>Spine</h1>
 
-<p>Spine est une application d'exécution de scripts créée avec GTK3. Cette application est principalement destinée aux utilisateurs du PinePhone (mais peut étre utilisé sur ordinateur) pour leur permettre de gérer facilement des scripts en leur offrant une interface simple et conviviale.</p>
+<p>Spine est une application d'exécution de scripts créée avec GTK3. Cette application est principalement destinée aux utilisateurs du PinePhone (peut étre utilisé sur ordinateur) pour leur permettre de gérer facilement des scripts en leur offrant une interface simple et conviviale.</p>
 
 <h2>Fonctionnalités</h2>
 
 <ul>
-  <li>Exécuter des scripts directement à partir de l'application, de manière simple et rapide.</li>
+  <li>Exécuter des scripts directement à partir de l'application, de manière simple et conviviale.</li>
   <li>Les scripts sont accessible dans le dossier utilisateur ~/Documents/Scripts</li>
 </ul>
 
