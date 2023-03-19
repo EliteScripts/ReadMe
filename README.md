@@ -12,6 +12,7 @@
   <li>Sélectionner facilement un script à exécuter en un clic.</li>
   <li>Exécuter des scripts à partir de n'importe quel emplacement sur l'appareil.</li>
   <li>Exécuter des scripts de manière discrète.</li>
+  <li>Les scripts sont facilement accessibles (~/Documents/Scripts) </li>
 </ul>
 
 <h2>Technologies utilisées</h2>
