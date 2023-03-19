@@ -5,12 +5,11 @@
 <h2>Fonctionnalités</h2>
 
 <ul>
+  <li>Exécuter des scripts discrètement à partir de l'application.</li>
+  <li>Permet de sélectionner un script ou plusieur en même temps à exécuter en un clic.</li>
+  <li>Configurer des paramètres pour chaque script, depuis le dossier ~/Documents/Scripts.</li>
   <li><del>Ajouter, modifier et supprimer des scripts.</del></li>
   <li><del>Rechercher des scripts par nom ou par contenu.</del></li>
-  <li>Exécuter des scripts directement à partir de l'application.</li>
-  <li>Configurer des paramètres pour chaque script, depuis le dossier ~/Documents/Scripts.</li>
-  <li>Sélectionner facilement un script ou plusieur en même temps à exécuter en un clic.</li>
-  <li>Exécuter des scripts de manière discrète.</li>
 </ul>
 
 <h2>Technologies utilisées</h2>
