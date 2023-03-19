@@ -22,26 +22,11 @@
 <h2>Comment utiliser l'application</h2>
 
 <ol>
-  <li>Installez les dépendances nécessaires pour l'exécution de l'application.</li>
-  <li>Clonez le dépôt Tourbillon sur votre ordinateur.</li>
+  <li>Clonez le dépôt Tourbillon sur votre ordinateur. <p><code>git clone https://github.com/EliteScripts/Tourbillon.git</code></p></li>
   <li>Ouvrez un terminal et accédez au répertoire du projet.</li>
   <li>Exécutez la commande suivante pour lancer l'application : python scripts-runner.py</li>
   <li>Utilisez l'interface utilisateur pour gérer vos scripts.</li>
 </ol>
-
-
-<h2>Dépendances nécessaires</h2>
-<p>Debian/Ubuntu:</p>
-<code>sudo apt-get install python3-gi python3-gi-cairo gir1.2-gtk-3.0</code>
-
-<p>ArchLinux/Manjaro:</p>
-<code>sudo pacman -S python-gobject gtk3</code>
-
-<p>Fedora:</p>
-<code>sudo dnf install python3-gobject gtk3</code>
-
-<p>Mageia:</p>
-<code>sudo urpmi python3-gobject gtk3</code>
 
 <h2>Contributions</h2>
 
