@@ -28,7 +28,7 @@
   <li>Installez les dépendances nécessaires pour l'exécution de l'application.</li>
   <li>Clonez le dépôt Tourbillon sur votre ordinateur.</li>
   <li>Ouvrez un terminal et accédez au répertoire du projet.</li>
-  <li>Exécutez la commande suivante pour lancer l'application : python script_manager.py</li>
+  <li>Exécutez la commande suivante pour lancer l'application : python scripts-runner.py</li>
   <li>Utilisez l'interface utilisateur pour gérer vos scripts.</li>
 </ol>
 
