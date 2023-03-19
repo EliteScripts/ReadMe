@@ -5,7 +5,7 @@
 <h2>Fonctionnalités</h2>
 
 <ul>
-  <li>Liste chaque script, depuis le dossier ~/Documents/Scripts.</li>
+  <li>L'application liste chaque script, depuis le dossier ~/Documents/Scripts.</li>
   <li>Sélectionner un ou plusieur scripts à exécuter.</li>
   <li><del>Ajouter, modifier et supprimer des scripts.</del></li>
   <li><del>Rechercher des scripts par nom ou par contenu.</del></li>
