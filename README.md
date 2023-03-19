@@ -7,6 +7,7 @@
 <ul>
   <li>L'application liste chaque script, depuis le dossier ~/Documents/Scripts.</li>
   <li>Sélectionner un ou plusieur scripts à exécuter.</li>
+  <li>Cliquer sur le petit bouton en haut a droite pour exécuter les scripts selectionné.</li>
   <li><del>Ajouter, modifier et supprimer des scripts.</del></li>
   <li><del>Rechercher des scripts par nom ou par contenu.</del></li>
 </ul>
