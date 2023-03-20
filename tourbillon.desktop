@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=Application execute des scripts
+VERSION=0.1
+Encoding=UTF-8
+Exec=/usr/bin/python3 /usr/bin/tourbillon/tourbillon.py
+Icon=/usr/share/applications/tourbillon/tourbillon.png
+Name=Tourbillon
+StartupNotify=true
+Terminal=false
+Type=Utility;Application
