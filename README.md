@@ -37,7 +37,7 @@
   <li>Clonez le dépôt Tourbillon sur votre ordinateur. <p><code>git clone https://github.com/EliteScripts/Tourbillon.git</code></p></li>
   <li>Ouvrez un terminal et accédez au répertoire du projet. <p><code>cd Tourbillon</code></p></li>
   <li>Exécutez la commande suivante pour installer l'application : <p><code>sudo sh setup.sh</code></p></li>
-  <li>Exécutez la commande suivante pour lancer l'application : <p><code>python scripts-runner.py</code></p></li>
+  <li>Exécutez la commande suivante pour lancer l'application : <p><code>python tourbillon.py</code></p></li>
   <li>Utilisez l'interface utilisateur pour exécuter vos scripts. <p><code>Enjoy</code></p></li>
 </ol>
 
