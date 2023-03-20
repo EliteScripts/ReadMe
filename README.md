@@ -2,7 +2,7 @@
 <h2>Version: 0.1</h2>
 <h2>(ScriptsRunner pour PinePhone)</h2>
 
-<p>Tourbillon est une application de gestion de scripts créée avec GTK3. Cette application est principalement destinée aux utilisateurs du PinePhone (téléphone Linux) pour leur permettre de gérer facilement des scripts en leur offrant une interface simple et conviviale.</p>
+<p>"Tourbillon est une application de gestion de scripts créée avec GTK3. Son interface conviviale et intuitive permet aux utilisateurs du PinePhone de gérer leurs scripts sans recourir à un terminal ou une application complexe. Conçue pour être simple et discrète, elle garantit l'efficacité de l'exécution de commandes simples ou multiples."</p>
 
 <h2>Fonctionnalités</h2>
 
