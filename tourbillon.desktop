@@ -1,10 +1,13 @@
 [Desktop Entry]
-Comment=Application exécute des scripts
-VERSION=0.1
-Encoding=UTF-8
-Exec=/usr/bin/python3 /usr/bin/tourbillon/tourbillon.py
-Icon=/usr/share/icons/hicolor/128x128/tourbillon/tourbillon.png
 Name=Tourbillon
-StartupNotify=true
+Encoding=UTF-8
+Version=0.1
+Type=Application
 Terminal=false
-Type=Utility;Application
+Exec=/usr/bin/python3 /usr/bin/tourbillon.py %u
+GenericName=Tourbillon
+Icon=/usr/share/icons/tourbillon/tourbillon.png
+Categories=GTK;GNOME;Utility
+X-DBUS-ServiceName=tourbillon
+X-Purism-FormFactor=Workstation;Mobile;
+StartupNotify=true
