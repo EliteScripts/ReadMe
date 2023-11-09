@@ -1,8 +1,9 @@
 #!/bin/bash
 
 cp tourbillon.desktop /usr/share/applications/tourbillon.desktop
+cp tourbillon /usr/bin/tourbillon
+cp tourbillon.png /usr/share/icons/hicolor/512x512/apps/tourbillon.png
 
-cp tourbillon.py /usr/bin/tourbillon.py
+chmod +x /usr/bin/tourbillon
 
-mkdir /usr/share/icons/hicolor/128x128/tourbillon/
-cp tourbillon.png /usr/share/icons/hicolor/128x128/tourbillon.png
+echo "Setup OK"
