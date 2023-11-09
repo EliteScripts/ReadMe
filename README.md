@@ -36,3 +36,7 @@
 <p>Les contributions sont les bienvenues ! Si vous souhaitez contribuer à Tourbillon, veuillez ouvrir une "pull request" avec vos modifications proposées.</p>
 
 <p>N'oubliez pas de bien documenter votre code et de suivre les normes de codage PEP 8.</p>
+
+<h2>Don</h2>
+
+<code>Monero: 87WSP8nbrFudww8uKkN3Xjfu6YWwd1CxC7oBB8bpPxCr4d3RSzN7ZxK3FbppaqZFf3WZk2bhEEc6dUBqhNPfAyNs7mdP3Wm</code>
