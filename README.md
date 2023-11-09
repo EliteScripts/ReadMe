@@ -36,7 +36,3 @@
 <p>Les contributions sont les bienvenues ! Si vous souhaitez contribuer à Tourbillon, veuillez ouvrir une "pull request" avec vos modifications proposées.</p>
 
 <p>N'oubliez pas de bien documenter votre code et de suivre les normes de codage PEP 8.</p>
-
-<h2>Licence</h2>
-
-<p>Tourbillon est distribué sous la licence MIT. Veuillez consulter le fichier LICENSE pour plus de détails.</p>
