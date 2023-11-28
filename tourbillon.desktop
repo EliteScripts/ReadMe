@@ -1,12 +1,12 @@
 [Desktop Entry]
 Name=Tourbillon
 Encoding=UTF-8
-Version=0.1
+Version=0.2
 Type=Application
 Terminal=false
-Exec=/usr/bin/python3 /usr/bin/tourbillon
+Exec=python3 /usr/bin/tourbillon
 GenericName=Tourbillon
-Icon=/usr/share/icons/hicolor/512x512/apps/tourbillon.png
+Icon=/usr/share/icons/hicolor/512x512/apps/tourbillon-512.png
 Categories=GTK;GNOME;Utility
 X-DBUS-ServiceName=tourbillon
 X-Purism-FormFactor=Workstation;Mobile;
