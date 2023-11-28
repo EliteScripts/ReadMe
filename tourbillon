@@ -51,6 +51,8 @@ class MainWindow(Gtk.Window):
 
     def fill_store(self):
         path = os.path.expanduser("~/Documents/Scripts")
+        if not os.path.exists(path):
+            os.makedirs(path)
         for file in os.listdir(path):
             if file.endswith(".sh") or file.endswith(".py"):
                 self.store.append([file, False])
