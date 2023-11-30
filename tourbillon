@@ -41,12 +41,6 @@ class MainWindow(Gtk.Window):
         self.button.connect("clicked", self.on_button_clicked)
         headerbar.pack_end(self.button)
 
-        # Création d'un bouton "À propos"
-        about_button = Gtk.Button()
-        about_button.set_label("À propos")
-        about_button.connect("clicked", self.show_about_dialog)
-        headerbar.pack_end(about_button)
-
         self.show_all()
 
     def fill_store(self):
@@ -68,16 +62,6 @@ class MainWindow(Gtk.Window):
                     subprocess.Popen(["/bin/sh", path])
                 elif row[0].endswith(".py"):
                     subprocess.Popen(["python3", path])
-
-    def show_about_dialog(self, widget):
-        about_dialog = Gtk.AboutDialog()
-        about_dialog.set_logo(GdkPixbuf.Pixbuf.new_from_file("/usr/share/icons/hicolor/16x16/apps/tourbillon-16.png"))
-        about_dialog.set_program_name("Tourbillon")
-        about_dialog.set_version("0.2")
-        about_dialog.set_authors(["Mr.Charles"])
-        about_dialog.set_comments("L'application \"Tourbillon\" est une interface graphique simplifiée permettant d'exécuter des scripts situés dans le dossier \"Documents/Scripts\".")
-        about_dialog.run()
-        about_dialog.destroy()
 
 win = MainWindow()
 win.connect("destroy", Gtk.main_quit)
